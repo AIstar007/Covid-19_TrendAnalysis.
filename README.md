@@ -48,3 +48,5 @@ This project performs trend analysis on Covid-19 cases worldwide using Python. I
    from sklearn.impute import SimpleImputer
    imputer = SimpleImputer(strategy='mean')
    df[['Confirmed', 'Deaths', 'Recovered']] = imputer.fit_transform(df[['Confirmed', 'Deaths', 'Recovered']])
+
+## 📈 Example Plot
